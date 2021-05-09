@@ -1,0 +1,22 @@
+{
+  "name": "JMA-weather-line-bot-py",
+  "description": "JMA-weather-line-bot-py",
+  "keywords": [
+    "python",
+    "line messaging api"
+  ],
+  "addons":[
+    "papertrail"
+  ],
+  "env": {
+    "HEROKU_APP_NAME": { "required": true },
+    "LINE_CHANNEL_SECRET": {
+      "description": "LINE Channel Secret"
+    },
+    "LINE_CHANNEL_ACCESS_TOKEN": {
+      "description": "LINE Channel Access Token"
+    }
+  },
+  "website": "https://github.com/hiro-ogawa/JMA-weather-line-bot-py",
+  "repository": "https://github.com/hiro-ogawa/JMA-weather-line-bot-py"
+}
